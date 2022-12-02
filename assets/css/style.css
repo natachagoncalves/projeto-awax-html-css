@@ -640,6 +640,7 @@ cursor: pointer;
 
 .section-price {
     display:flex;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -652,15 +653,10 @@ cursor: pointer;
 }
 
 .section-price--item {
-    flex:1;
     background-color: #fff;
-    margin-right: 20px;
-    padding:20px;
+    padding: 20px;
+    margin: 20px;
     text-align:center;
-}
-
-.section-price--item:last-child {
-    margin-right:0;
 }
 
 .section-price--item-name {
